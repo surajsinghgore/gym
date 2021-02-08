@@ -1,0 +1,360 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back{
+    position: relative;
+    top:0;
+    left: 0;
+    background: black;
+    background-size: cover;
+    width: 100%;
+    height: 85px;
+
+}
+
+.back header{
+    overflow: hidden;
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    /* background-color: rebeccapurple; */
+}
+.back header #logo{
+ 
+    line-height: 120px;
+    padding-left: 10px;
+width: 18%;
+text-align: center;
+float: left;
+
+}
+.back header .lis{
+    float: left;
+    width: 60%;
+    text-align: center;
+    height: 85px;
+  margin-left: 10px;
+}
+.back header .lis .active{
+    color: rgb(240, 57, 57);
+}
+.back header .lis a{
+text-decoration: none;
+line-height: 80px;
+margin: 15px;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+transition: all 0.8s;
+}
+.back header .lis a:hover{
+    color: rgb(240, 57, 57);
+}
+.back header .lis a li{
+    display: inline-block;
+    width: 20%;
+    height: 85px;
+}
+.back .data{
+
+    position: absolute;
+    top: 45%;
+    right: 0%;
+    /* background-color: pink; */
+width: 45%;
+height: 300px;
+}
+.back .data h1{
+    text-shadow: 1px 1px 8px black;
+    padding-left: 80px;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+}
+.back .data h2{
+    text-shadow: 1px 1px 8px black;
+    padding-left: 80px;
+    color: white;
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+
+}
+.back .data h2 span{
+    text-shadow: 1px 1px 8px rgb(31, 30, 30);
+   
+    color: rgb(226, 88, 8);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.back .data button{
+    width: 25%;
+   margin-left: 90px;
+   box-shadow: 1px 1px 8px 1px black;
+    cursor: pointer;
+    margin-top: 6%;
+    height: 60px;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.back header .lastss{
+    position: relative;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 21%;
+    height: 85px;
+ 
+}
+.back header .lastss li{
+    display: inline-block;
+    list-style: none;
+padding: 10px;
+padding-left: 20px;
+}
+.back header .lastss li i{
+    font-size: 25px;
+    line-height: 60px;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.back header .lastss li i:hover{
+    color: rgb(255, 102, 0);
+}
+.last{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    background-color: rgb(7, 8, 8);
+}
+.last .div1{
+float: left;
+width: 33.3%;
+overflow: hidden;
+height: 120px;
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.last .div1 i{
+    background-color: rgb(255, 81, 0);
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    float: left;
+line-height: 70px;
+margin-top: 20px;
+margin-left: 30px;
+border-radius: 60px; 
+text-align: center;
+    width: 15%;
+}
+.last .div1 span{
+    padding-left: 10px;
+    line-height: 120px;
+    word-wrap: break-word;
+    color: white;
+}
+.last .div2{
+float: left;
+width: 33.3%;
+height: 120px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.last .div2 i{
+    background-color: rgb(255, 81, 0);
+    height: 70px;
+    font-size: 30px;
+    color: white;
+    float: left;
+line-height: 70px;
+margin-top: 20px;
+margin-left: 30px;
+border-radius: 60px; 
+text-align: center;
+    width: 15%;
+}
+.last .div2 span{
+    padding-left: 10px;
+    line-height: 120px;
+    word-wrap: break-word;
+    color: white;
+}
+.last .div3{
+float: left;
+width: 33.3%;
+height: 120px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-color: black;
+}
+footer .div1{
+    width: 30%;
+    float: left;
+    height: 300px;
+    overflow: hidden;
+   
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+footer .div1 img{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+   
+}
+
+footer .div2{
+    width: 20%;
+    float: left;
+    height: 300px;
+    overflow: hidden;
+   cursor: pointer;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+footer .div2 h1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+footer .div3{
+    width: 20%;
+    float: left;
+    height: 300px;
+    overflow: hidden;
+   cursor: pointer;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+footer .div3 h1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+footer .div4 {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    
+     padding-left: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+    height: 300px;
+}
+footer .div4 h1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(31, 31, 31);
+}
+.footer span{
+    color: rgb(255, 102, 0);
+}
+
+
+
+/* styling contact page */
+.contact{
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: 500px;
+background: url(images/20.jpg) no-repeat;
+background-size: cover;
+}
+.contact h1{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 1px 1px 8px black;
+    line-height: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact p{
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 10px rgb(12, 12, 12);
+    line-height: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}.contact span{
+    color: rgb(255, 94, 0);
+}
+body{
+    background-color: black;
+}
+.main{
+    position: relative;
+    top: 0%;
+    left: 0;
+    margin-top: 2%;
+    width: 100%;
+   
+    padding-left: 4px;
+    margin-bottom: 2%;
+    height: 1400px;
+
+}
+.main img{
+    padding: 3px;
+}
+.main img:hover{
+    filter: brightness(1.6);
+}
+.main #a{
+    width: 47%;
+    height: 460px;
+}
+.main #b{
+    width: 26%;
+    height: 460px;
+}
